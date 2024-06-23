@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.11.4 on win32)" generated="2024-06-21T22:24:53.129096" rpa="false" schemaversion="5">
+<suite id="s1" name="Test" source="D:\Robot framework\test.robot">
+<test id="s1-t1" name="Open Chrome Browser" line="5">
+<kw name="Open Browser" owner="Browser">
+<msg time="2024-06-21T22:24:53.881000" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+<msg time="2024-06-21T22:24:53.881999" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "D:\\Robot framework\\browser\\traces\\0f6fc7b4-d1e5-490a-8b2a-8fa3c3387e4b"}</msg>
+<msg time="2024-06-21T22:24:54.204221" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"D:\\Robot framework\\browser\\traces\\0f6fc7b4-d1e5-490a-8b2a-8fa3c3387e4b"}</msg>
+<msg time="2024-06-21T22:24:54.205220" level="INFO">{
+  "acceptDownloads": true,
+  "bypassCSP": true,
+  "forcedColors": "none",
+  "ignoreHTTPSErrors": false,
+  "javaScriptEnabled": true,
+  "offline": false,
+  "reducedMotion": "no-preference",
+  "serviceWorkers": "allow",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  }
+}</msg>
+<msg time="2024-06-21T22:24:54.235223" level="INFO">Successfully created context. </msg>
+<msg time="2024-06-21T22:24:54.235223" level="INFO">{'acceptDownloads': True, 'bypassCSP': True, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'width': 1280, 'height': 720}}</msg>
+<msg time="2024-06-21T22:24:57.183549" level="INFO">Successfully initialized new page object and opened url: http://eliteskillup.com</msg>
+<arg>http://eliteskillup.com</arg>
+<arg>Chromium</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Opens a new browser instance. Use this keyword for quick experiments or debugging sessions.</doc>
+<status status="PASS" start="2024-06-21T22:24:53.881000" elapsed="3.302549"/>
+</kw>
+<status status="PASS" start="2024-06-21T22:24:53.877995" elapsed="3.305554"/>
+</test>
+<status status="PASS" start="2024-06-21T22:24:53.131096" elapsed="4.228981"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Test">Test</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-06-21T22:24:53.881000" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+</errors>
+</robot>

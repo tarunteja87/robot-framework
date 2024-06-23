@@ -1,0 +1,16 @@
+1719076353152	geckodriver	INFO	Listening on 127.0.0.1:49671
+1719076356186	mozrunner::runner	INFO	Running command: "C:\\Users\\tarun\\.cache\\selenium\\firefox\\win64\\127.0.1\\firefox.exe" "--marionette" "--remote-debuggin ... 2" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\tarun\\AppData\\Local\\Temp\\rust_mozprofilev1F6b7"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1719076356495	Marionette	INFO	Marionette enabled
+1719076356664	Marionette	INFO	Listening on port 49708
+WebDriver BiDi listening on ws://127.0.0.1:49672
+Read port: 49708
+1719076356838	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:49672/devtools/browser/41c66f8d-bc21-43aa-a5d3-f5a63bb116ee
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ttep1hf2xTKPY5HV4abLvqDFRXZuZQmhABAIUKmOBs4.js line 2 > eval line 3086 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1719076388059	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

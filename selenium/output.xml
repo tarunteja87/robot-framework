@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.11.4 on win32)" generated="2024-06-23T13:20:43.840295" rpa="false" schemaversion="5">
+<suite id="s1" name="New" source="d:\Robot framework\selenium\Tests\new.robot">
+<test id="s1-t1" name="login" line="23">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-06-23T13:20:44.831059" level="INFO">Typing text 'Bhanu' into text field 'id=user_login'.</msg>
+<msg time="2024-06-23T13:20:44.833057" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg time="2024-06-23T13:20:44.833057" level="FAIL">No browser is open.</msg>
+<arg>id=user_login</arg>
+<arg>Bhanu</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="FAIL" start="2024-06-23T13:20:44.830056" elapsed="0.007003">No browser is open.</status>
+</kw>
+<kw name="Input Password" owner="SeleniumLibrary">
+<arg>id=user_pass</arg>
+<arg>Tarunteja87@@</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-06-23T13:20:44.838058" elapsed="0.000000"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<arg>id=wp-submit</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-06-23T13:20:44.839057" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-06-23T13:20:44.839057" elapsed="0.001000"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>Howdy</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="NOT RUN" start="2024-06-23T13:20:44.840057" elapsed="0.000000"/>
+</kw>
+<doc>Login to vthetechee.com</doc>
+<status status="FAIL" start="2024-06-23T13:20:44.827057" elapsed="0.014000">No browser is open.</status>
+</test>
+<doc>Job posting Automation</doc>
+<status status="FAIL" start="2024-06-23T13:20:43.846293" elapsed="1.075286"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="New">New</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

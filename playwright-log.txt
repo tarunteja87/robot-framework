@@ -1,0 +1,48 @@
+{"level":30,"time":"2024-06-21T16:54:53.819Z","pid":32180,"hostname":"Tarun","msg":"Listening on 56297"}
+(node:32180) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2024-06-21T16:54:53.877Z","pid":32180,"hostname":"Tarun","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-06-21T16:54:53.877Z","pid":32180,"hostname":"Tarun","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-06-21T16:54:53.880Z","pid":32180,"hostname":"Tarun","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-06-21T16:54:53.880Z","pid":32180,"hostname":"Tarun","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-06-21T16:54:53.883Z","pid":32180,"hostname":"Tarun","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2024-06-21T16:54:54.201Z","pid":32180,"hostname":"Tarun","msg":"Adding browser to stack: chromium, version: 125.0.6422.26"}
+{"level":30,"time":"2024-06-21T16:54:54.202Z","pid":32180,"hostname":"Tarun","msg":"End of node method newBrowser"}
+{"level":30,"time":"2024-06-21T16:54:54.202Z","pid":32180,"hostname":"Tarun","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2024-06-21T16:54:54.209Z","pid":32180,"hostname":"Tarun","msg":"Start of node method newContext"}
+{"level":30,"time":"2024-06-21T16:54:54.209Z","pid":32180,"hostname":"Tarun","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-06-21T16:54:54.209Z","pid":32180,"hostname":"Tarun","msg":"Trace file: "}
+{"level":30,"time":"2024-06-21T16:54:54.233Z","pid":32180,"hostname":"Tarun","msg":"Changed active context"}
+{"level":30,"time":"2024-06-21T16:54:54.233Z","pid":32180,"hostname":"Tarun","msg":"End of node method newContext"}
+{"level":30,"time":"2024-06-21T16:54:54.238Z","pid":32180,"hostname":"Tarun","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-06-21T16:54:54.238Z","pid":32180,"hostname":"Tarun","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-06-21T16:54:54.568Z","pid":32180,"hostname":"Tarun","msg":"Video path: undefined"}
+{"level":30,"time":"2024-06-21T16:54:54.568Z","pid":32180,"hostname":"Tarun","msg":"Changed active page"}
+{"level":30,"time":"2024-06-21T16:54:57.182Z","pid":32180,"hostname":"Tarun","msg":"End of node method newPage"}
+{"level":30,"time":"2024-06-21T16:54:57.188Z","pid":32180,"hostname":"Tarun","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-06-21T16:54:57.260Z","pid":32180,"hostname":"Tarun","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-06-21T16:54:57.262Z","pid":32180,"hostname":"Tarun","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-06-21T16:54:57.265Z","pid":32180,"hostname":"Tarun","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-06-21T16:54:57.268Z","pid":32180,"hostname":"Tarun","msg":"Changed active context"}
+{"level":30,"time":"2024-06-21T16:54:57.269Z","pid":32180,"hostname":"Tarun","msg":"Changing current active page: page=00b7b807-ed48-4e0c-a6d4-e58d35ad4c90"}
+{"level":30,"time":"2024-06-21T16:54:57.269Z","pid":32180,"hostname":"Tarun","msg":"Changed active page"}
+{"level":30,"time":"2024-06-21T16:54:57.273Z","pid":32180,"hostname":"Tarun","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-06-21T16:54:57.274Z","pid":32180,"hostname":"Tarun","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-06-21T16:54:57.276Z","pid":32180,"hostname":"Tarun","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-06-21T16:54:57.276Z","pid":32180,"hostname":"Tarun","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-06-21T16:54:57.278Z","pid":32180,"hostname":"Tarun","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-06-21T16:54:57.278Z","pid":32180,"hostname":"Tarun","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-06-21T16:54:57.280Z","pid":32180,"hostname":"Tarun","msg":"Changing current active page: page=00b7b807-ed48-4e0c-a6d4-e58d35ad4c90"}
+{"level":30,"time":"2024-06-21T16:54:57.280Z","pid":32180,"hostname":"Tarun","msg":"Changed active page"}
+{"level":30,"time":"2024-06-21T16:54:57.283Z","pid":32180,"hostname":"Tarun","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-06-21T16:54:57.286Z","pid":32180,"hostname":"Tarun","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-06-21T16:54:57.288Z","pid":32180,"hostname":"Tarun","msg":"Changed active context"}
+{"level":30,"time":"2024-06-21T16:54:57.288Z","pid":32180,"hostname":"Tarun","msg":"Changing current active page: page=00b7b807-ed48-4e0c-a6d4-e58d35ad4c90"}
+{"level":30,"time":"2024-06-21T16:54:57.288Z","pid":32180,"hostname":"Tarun","msg":"Changed active page"}
+{"level":30,"time":"2024-06-21T16:54:57.290Z","pid":32180,"hostname":"Tarun","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-06-21T16:54:57.298Z","pid":32180,"hostname":"Tarun","msg":"Removed page=ae7d5836-4274-4904-8d93-4c228116f986 from context=992b708e-89fd-4c96-8f65-86825e9c5719 page stack"}
+{"level":30,"time":"2024-06-21T16:54:57.350Z","pid":32180,"hostname":"Tarun","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-06-21T16:54:57.367Z","pid":32180,"hostname":"Tarun","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-06-21T16:54:57.367Z","pid":32180,"hostname":"Tarun","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-06-21T16:54:57.414Z","pid":32180,"hostname":"Tarun","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-06-21T16:54:57.600Z","pid":32180,"hostname":"Tarun","msg":"End of node method closeAllBrowsers"}

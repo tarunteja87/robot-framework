@@ -1,0 +1,18 @@
+1719076144861	geckodriver	INFO	Listening on 127.0.0.1:49336
+1719076147919	mozrunner::runner	INFO	Running command: "C:\\Users\\tarun\\.cache\\selenium\\firefox\\win64\\127.0.1\\firefox.exe" "--marionette" "--remote-debuggin ... 7" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\tarun\\AppData\\Local\\Temp\\rust_mozprofileD24nBo"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1719076148592	Marionette	INFO	Marionette enabled
+1719076148752	Marionette	INFO	Listening on port 49382
+WebDriver BiDi listening on ws://127.0.0.1:49337
+Read port: 49382
+1719076148954	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:49337/devtools/browser/33ef6a50-794a-44b0-8ad7-baa3d8ca41bf
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ttep1hf2xTKPY5HV4abLvqDFRXZuZQmhABAIUKmOBs4.js line 2 > eval line 2500 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1719076180261	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://rapidtags.io."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://rapidtags.io."
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

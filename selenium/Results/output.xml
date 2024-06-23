@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.11.4 on win32)" generated="2024-06-23T19:25:56.620684" rpa="false" schemaversion="5">
+<suite id="s1" name="New" source="D:\Robot framework\selenium\Tests\new.robot">
+<test id="s1-t1" name="open chrome Browser" line="21">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-06-23T19:25:57.588474" level="INFO">Opening browser 'chrome' to base url 'https://vthetechee.com/ind-vthe'.</msg>
+<arg>https://vthetechee.com/ind-vthe</arg>
+<arg>chrome</arg>
+<arg>pause_on_failure=False</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-06-23T19:25:57.588474" elapsed="3.968440"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-06-23T19:26:01.557890" elapsed="0.033833"/>
+</kw>
+<kw name="Get Window Size" owner="SeleniumLibrary">
+<msg time="2024-06-23T19:26:01.596169" level="INFO">${screen resolution} = (1936, 1048)</msg>
+<var>${screen resolution}</var>
+<doc>Returns current window width and height as integers.</doc>
+<status status="PASS" start="2024-06-23T19:26:01.591723" elapsed="0.004446"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${screen resolution}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-06-23T19:26:01.596169" elapsed="0.000976"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-06-23T19:26:01.598120" level="INFO">(1936, 1048)</msg>
+<arg>${screen resolution}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-06-23T19:26:01.597145" elapsed="0.000975"/>
+</kw>
+<doc>Open Chrome Browser and open vthetechee login page</doc>
+<status status="PASS" start="2024-06-23T19:25:57.586518" elapsed="4.011602"/>
+</test>
+<test id="s1-t2" name="login" line="29">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-06-23T19:26:01.640338" level="INFO">Typing text 'Bhanu' into text field 'id=user_login'.</msg>
+<arg>id=user_login</arg>
+<arg>Bhanu</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-23T19:26:01.640338" elapsed="0.125693"/>
+</kw>
+<kw name="Input Password" owner="SeleniumLibrary">
+<msg time="2024-06-23T19:26:01.766031" level="INFO">Typing password into text field 'id=user_pass'.</msg>
+<msg time="2024-06-23T19:26:01.797908" level="INFO">Temporally setting log level to: NONE</msg>
+<arg>id=user_pass</arg>
+<arg>Tarunteja87@@</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-23T19:26:01.766031" elapsed="0.121804"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-06-23T19:26:01.888811" level="INFO">Clicking button 'id=wp-submit'.</msg>
+<arg>id=wp-submit</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-23T19:26:01.887835" elapsed="1.600031"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-06-23T19:26:08.489370" level="INFO">Slept 5 seconds.</msg>
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-06-23T19:26:03.488848" elapsed="5.000522"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>Howdy</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2024-06-23T19:26:08.489370" elapsed="0.013216"/>
+</kw>
+<doc>Login to vthetechee.com</doc>
+<status status="PASS" start="2024-06-23T19:26:01.634921" elapsed="6.867665"/>
+</test>
+<test id="s1-t3" name="Create a new post" line="37">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-06-23T19:26:08.541038" level="INFO">Clicking element 'id=wp-admin-bar-new-content'.</msg>
+<arg>id=wp-admin-bar-new-content</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-23T19:26:08.541038" elapsed="8.286794"/>
+</kw>
+<doc>Create a new post</doc>
+<status status="PASS" start="2024-06-23T19:26:08.538081" elapsed="8.290727"/>
+</test>
+<test id="s1-t4" name="Add title" line="41">
+<kw name="Get Title" owner="resource">
+<msg time="2024-06-23T19:26:16.864204" level="INFO">${title} = Tarun is hiring for Quality Assurance | Apply now</msg>
+<var>${title}</var>
+<status status="PASS" start="2024-06-23T19:26:16.864204" elapsed="0.000000"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-06-23T19:26:16.865186" level="INFO">Typing text 'Tarun is hiring for Quality Assurance | Apply now' into text field 'class=wp-block-post-title'.</msg>
+<arg>class=wp-block-post-title</arg>
+<arg>${title}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-23T19:26:16.865186" elapsed="1.167720"/>
+</kw>
+<doc>Add title to the post</doc>
+<status status="PASS" start="2024-06-23T19:26:16.859763" elapsed="1.174120"/>
+</test>
+<test id="s1-t5" name="Save draft" line="46">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-06-23T19:26:18.070304" level="INFO">Clicking element '//button[@aria-label='Save draft']'.</msg>
+<arg>//button[@aria-label='Save draft']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-23T19:26:18.070304" elapsed="0.137088"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-06-23T19:26:20.208938" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-06-23T19:26:18.208370" elapsed="2.000568"/>
+</kw>
+<kw name="Get Element Attribute" owner="SeleniumLibrary">
+<msg time="2024-06-23T19:26:20.228519" level="INFO">${check} = true</msg>
+<var>${check}</var>
+<arg>css=button[aria-label="Saved"]</arg>
+<arg>aria-disabled</arg>
+<doc>Returns the value of ``attribute`` from the element ``locator``.</doc>
+<status status="PASS" start="2024-06-23T19:26:20.208938" elapsed="0.019581"/>
+</kw>
+<kw name="Should Be Equal" owner="BuiltIn">
+<arg>${check}</arg>
+<arg>true</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" start="2024-06-23T19:26:20.229496" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-06-23T19:26:18.067809" elapsed="2.162664"/>
+</test>
+<test id="s1-t6" name="Edit with elementor" line="52">
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-06-23T19:26:20.261480" level="INFO">Clicking button 'id=elementor-switch-mode-button'.</msg>
+<arg>id=elementor-switch-mode-button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-23T19:26:20.261480" elapsed="0.067745"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-06-23T19:26:35.331357" level="INFO">Slept 15 seconds.</msg>
+<arg>15s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-06-23T19:26:20.330790" elapsed="15.000567"/>
+</kw>
+<status status="PASS" start="2024-06-23T19:26:20.259530" elapsed="15.071827"/>
+</test>
+<test id="s1-t7" name="select html" line="57">
+<kw name="Click At Coordinates">
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2024-06-23T19:26:35.359235" level="INFO">Executing JavaScript:
+window.scrollTo(79, 360)
+Without any arguments.</msg>
+<arg>window.scrollTo(${x_coord}, ${y_coord})</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2024-06-23T19:26:35.359235" elapsed="0.005857"/>
+</kw>
+<arg>79</arg>
+<arg>360</arg>
+<status status="PASS" start="2024-06-23T19:26:35.359235" elapsed="0.005857"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-06-23T19:26:35.365092" level="INFO">Clicking element 'xpath=//*[@id="elementor-panel-category-favorites"]/div/div/button'.</msg>
+<arg>xpath=//*[@id="elementor-panel-category-favorites"]/div/div/button</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-23T19:26:35.365092" elapsed="0.375359"/>
+</kw>
+<kw name="Click Element At Coordinates" owner="SeleniumLibrary">
+<msg time="2024-06-23T19:26:35.741429" level="INFO">Clicking element 'xpath=//*[@id="elementor-panel-category-favorites"]/div/div' at coordinates x=79, y=360.</msg>
+<msg time="2024-06-23T19:26:36.030323" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-234.png"&gt;&lt;img src="selenium-screenshot-234.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2024-06-23T19:26:36.030323" level="FAIL">Element with locator 'xpath=//*[@id="elementor-panel-category-favorites"]/div/div' not found.</msg>
+<arg>xpath=//*[@id="elementor-panel-category-favorites"]/div/div</arg>
+<arg>79</arg>
+<arg>360</arg>
+<doc>Click the element ``locator`` at ``xoffset/yoffset``.</doc>
+<status status="FAIL" start="2024-06-23T19:26:35.740451" elapsed="0.293775">Element with locator 'xpath=//*[@id="elementor-panel-category-favorites"]/div/div' not found.</status>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>10s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-06-23T19:26:36.034226" elapsed="0.000976"/>
+</kw>
+<status status="FAIL" start="2024-06-23T19:26:35.357282" elapsed="0.677920">Element with locator 'xpath=//*[@id="elementor-panel-category-favorites"]/div/div' not found.</status>
+</test>
+<test id="s1-t8" name="Select text area" line="64">
+<kw name="Press Key" owner="SeleniumLibrary">
+<arg>class=ace_text-input</arg>
+<arg>\\22</arg>
+<doc>Simulates user pressing key on element identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-23T19:26:36.063176" elapsed="0.085491"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-06-23T19:26:46.150099" level="INFO">Slept 10 seconds.</msg>
+<arg>10s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-06-23T19:26:36.149644" elapsed="10.000455"/>
+</kw>
+<status status="PASS" start="2024-06-23T19:26:36.061227" elapsed="10.088872"/>
+</test>
+<test id="s1-t9" name="Publish post" line="70">
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-06-23T19:26:46.179112" level="INFO">Clicking button 'id=elementor-panel-saver-button-publish'.</msg>
+<arg>id=elementor-panel-saver-button-publish</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-06-23T19:26:46.179112" elapsed="0.065695"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-06-23T19:26:56.245208" level="INFO">Slept 10 seconds.</msg>
+<arg>10</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-06-23T19:26:46.244807" elapsed="10.000401"/>
+</kw>
+<status status="PASS" start="2024-06-23T19:26:46.176561" elapsed="10.068647"/>
+</test>
+<doc>Job posting Automation</doc>
+<status status="FAIL" start="2024-06-23T19:25:56.622635" elapsed="59.653054"/>
+</suite>
+<statistics>
+<total>
+<stat pass="8" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="8" fail="1" skip="0" id="s1" name="New">New</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
